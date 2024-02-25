@@ -29,11 +29,6 @@ function Home2() {
               </i>
               <br />
               <br />
-              My interest lies in crafting websites that empower clients to achieve 
-              their dreams. By merging aesthetics with functionality, I create digital 
-              spaces that are not only visually appealing but also highly intuitive.
-              <br />
-              <br />
               I revel in the challenge of converting complex problems into elegant solutions, 
               continuously expanding my creativity and technical skills. Whether it’s 
               building interactive web applications or integrating back-end processes, 

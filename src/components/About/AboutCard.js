@@ -8,10 +8,6 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ian Gichachi</span>
-            from <span className="purple"> Kenya.</span>
-            <br />
-            I am currently self-employed and collaborating with Pro-Resume Crafters.
             <br />
             I have completed my Bachelor of Science in Information Technology and certification in Software Development from Moringa School.
             <br />

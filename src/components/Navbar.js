@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/Logo.PNG";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
@@ -31,11 +31,13 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={navColour ? "navbar sticky" : "navbar"}
+      variant="dark" // Use dark variant to have transparent background
+      style={{ backgroundColor: navColour ? "rgba(0,0,0,0.7)" : "transparent" }} // Transparent background with slight opacity when scrolled
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo rounded-circle" alt="brand" style={{ width: "50%", height: "50%", marginRight: "15px" }} /> {/* Added inline styles */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
